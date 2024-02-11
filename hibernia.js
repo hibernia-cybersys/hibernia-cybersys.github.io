@@ -72,7 +72,7 @@ function validateEmailSubscribe() {
 
     var emailAddress = jQuery("#email").val();
 
-    if (emailAddress == "" || emailAddress == "Sign-up for updates: enter your email address here") {
+    if (emailAddress == "" || emailAddress == "Sign-up for updates: please sign up for our newsletter") {
         jQuery("form").overhang({
             type: "error",
             duration: 2,
