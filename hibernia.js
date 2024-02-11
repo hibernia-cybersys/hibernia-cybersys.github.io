@@ -127,6 +127,6 @@ function showMessageBannerForContactUs() {
     jQuery("body").overhang({
         type: "success",
         duration: 2,
-        message: "Feel free to contact us for collaboration and sponsorship of our research projects!"
+        message: "Feel free to contact us for collaboration opportunities or sponsorship of our research projects!"
     });
 }

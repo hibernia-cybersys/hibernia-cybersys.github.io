@@ -120,8 +120,8 @@
 					<form
 						id="emailForm"
 						name="emailForm"								
-						method="GET"
-						action="email_successful.html"
+						method="POST"
+						action="mailto:ResearchAndDevelopment@hibernia.digital"
 						onsubmit="return (validateEmail() && validateEmailFormat());"
 						novalidate
 					>
@@ -134,7 +134,7 @@
 									placeholder="Email"
 									required="required"
 									value="Sign-up for updates: please sign up for our newsletter"
-									data-validation-required-message="To sign-up, please provide your email address"
+									data-validation-required-message="To sign-up, please provide your email address and press Enter"
 									size="100"
 								/>
 								<p class="help-block text-danger"></p>
