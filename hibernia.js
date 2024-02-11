@@ -103,14 +103,7 @@ function validateMessage() {
     else {
         return true;
     }
-
-
-
-
-
-    if (message == "" || messageLength == 0) {
-
-    } else { return true; }
+   
 }
 
 //function present a successful login message on the order page
@@ -122,21 +115,14 @@ function showMessageBannerForHome() {
     });
 }
 
-//function present a successful login message on the order page
-function showMessageBannerForLineUp() {
-    jQuery("body").overhang({
-        type: "success",
-        duration: 2,
-        message: "Unique group of researchers"
-    });
-}
+
 
 //function present a successful login message on the order page
-function showMessageBannerForTickets() {
+function showMessageBannerForResearch() {
     jQuery("body").overhang({
         type: "success",
         duration: 2,
-        message: "We perform exploratory research projects and practical PoCs. Support us!"
+        message: "We perform exploratory research projects and practical PoCs. Sponsor our projects!"
     });
 }
 
