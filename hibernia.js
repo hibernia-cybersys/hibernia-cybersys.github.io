@@ -4,10 +4,6 @@ function validateContactUsDetails() {
     return (validateUserName() && validateEmail() && validateEmailFormat() && validatePhoneNumber() && validateMessage());
 }
 
-function validatePaymentDetails(){
-    
-}
-
 //function to validate the user name with custom overhang error messages
 function validateUserName() {
 
