@@ -1,0 +1,24 @@
+/*
+contact_lineup.css
+Author: Hibernia Cybernetics Systems
+*/
+
+/* styling for email lineup box - flex box layout info */
+.email_box_common {
+	align-items: center;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 1;
+	position: relative;
+	top: 80px;
+	left: -20px;
+	font-family: Fira Sans, sans-serif;
+}
+
+.image_round {
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+  }
+
+

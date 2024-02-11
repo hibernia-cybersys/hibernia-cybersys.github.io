@@ -1,0 +1,66 @@
+/* remove text decoration from hyperlinks */
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+/* background gradient */
+body {
+	background-image: linear-gradient(
+		to top,
+		#d16d6b,
+		#de8168,
+		#e79767,
+		#ecad69,
+		#ecc571,
+		#d1d175,
+		#b2dc85,
+		#8fe49e,
+		#38ddc1,
+		#00d1e4,
+		#00c0fb,
+		#5faafb
+	);
+}
+
+/* styling for figure element  */
+figure {
+	width: 200px;
+	overflow: hidden;
+	margin: 0;
+}
+
+/* styling for img  element  */
+img {
+	width: 200px;
+	height: 200px;
+	display: block;
+}
+
+/* initializes the flex box layout  */
+.container {
+	display: flex;
+}
+
+/* styling for custom font */
+.custom_font {
+	font-family: Fira Sans, sans-serif;
+	font-size: 2vw;
+	color: black;
+}
+
+/* styling for common box - flex box layout */
+.festival_common_box {
+	align-items: center;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 1;
+}

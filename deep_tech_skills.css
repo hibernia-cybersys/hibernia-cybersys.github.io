@@ -1,0 +1,10 @@
+/*
+deep_tech_skills.css
+Author: Hibernia Cybernetics Systems
+*/
+
+/* round cropping effect for images */
+.img_round {
+	border-radius: 50%;
+	width: 200px;
+}
